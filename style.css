@@ -1,0 +1,37 @@
+.input-data, .output-data {
+    display: inline-block;
+    min-width: 350px;
+}
+.result-data, .income-data {
+    padding: 4px;
+    border: 1px solid rgb(59, 59, 59);
+    font-weight: 600;
+    color:rgb(23, 66, 52);
+    width: 130px;
+    margin-bottom: 20px;
+    background-color: rgb(130, 245, 207);
+}
+.show-error {
+    font-weight: 600;
+    color:rgb(207, 6, 22);
+}
+.calc {
+    background-color: rgb(65, 247, 186);
+    padding: 10px;
+}
+#choice-currency, #choice-direction {
+    background-color: rgb(130, 245, 207);
+    padding: 4px;
+    border: 1px solid rgb(59, 59, 59);
+    margin-bottom: 20px;
+}
+#choice-currency {
+    min-width: 350px;
+}
+#choice-direction {
+    min-width: 270px;
+}
+#result {
+    background-color: rgb(130, 245, 207);
+    padding: 4px;
+}

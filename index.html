@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="calc">
+        <h3>Конвертер валют</h3>
+        <div class="convert-option">
+            <select id="choice-currency">
+                <option id="default-select" value="no">Выберите валюту</option>
+            </select>
+
+            <select id="choice-direction">
+                <option value="no">Выберите направление конвертации</option>
+                <option value="direct">Рубли -> Валюта</option>
+                <option value="inverse">Валюта -> Рубли</option>
+            </select>
+        </div>
+
+        <div class="input-data">
+                <input class="income-data" type="text" placeholder="Сумма">
+                <span class> Выбранная валюта</span>
+        </div>
+        <div class="output-data">
+            <input class="result-data" type="text" placeholder="0" disabled>
+            <span> Выбранная валюта</span>
+        </div>
+        <br>
+        <input id="result" type="submit" value="Конвертировать">
+        <span class="show-error"></span>
+    </div>
+</body>
+</html>
